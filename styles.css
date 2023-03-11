@@ -1,3 +1,10 @@
+@font-face {
+	font-family: 'Flecha';
+	src: url('./Fonts/Flecha.otf') format('opentype');
+}
+
+
+
 header {
 	background-color: white;
 	position: fixed;
@@ -36,10 +43,7 @@ header {
 	font-size: 20px;
 }
 
-@font-face {
-	font-family: 'Flecha';
-	src: url('./Fonts/Flecha.otf') format('opentype');
-}
+
 
 .photo {
 	width: 55%;
