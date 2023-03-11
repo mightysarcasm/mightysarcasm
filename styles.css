@@ -38,7 +38,7 @@ header {
 
 @font-face {
 	font-family: 'Flecha';
-	src: url('/Fonts/Flecha.otf') format('opentype');
+	src: url('./Fonts/Flecha.otf') format('opentype');
 }
 
 .photo {
