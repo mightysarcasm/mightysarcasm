@@ -1,0 +1,103 @@
+header {
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.menu {
+	font-family: 'Flecha', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	animation: intro 2s ease-out forwards;
+}
+
+
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	display: inline-block;
+	margin: 0 10px;
+	transition: transform 0.2s ease-in-out;
+
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+@font-face {
+	font-family: 'Flecha';
+	src: url('/Fonts/Flecha.otf') format('opentype');
+}
+
+.photo {
+	width: 55%;
+	margin: 0;
+
+}
+
+.photo img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+
+}
+
+.content {
+	flex-grow: 1;
+
+	width: 45%;
+	background-color: beige;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+
+.content h1 {
+	font-family: 'Flecha';
+	padding: 25px;
+	text-align: center;
+	color: darkslategray;
+	text-transform: uppercase;
+	animation: intro 2s ease-out forwards;
+
+}
+
+@keyframes intro {
+ 0% {
+	 opacity: 0;
+   }
+   100% {
+	 opacity: 1;
+   }
+ }
+
+.menu li:hover {
+   transform: scale(1.1);
+ }
